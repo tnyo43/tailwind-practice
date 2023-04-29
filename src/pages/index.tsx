@@ -1,4 +1,5 @@
 import { Button } from "@/components/Button";
+import { TextInput } from "@/components/Input";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         corresponding styles and then writing them to a static CSS file. It is
         fast, flexible, and reliable - with zero-runtime.
       </p>
-      <div className="flex flex-col gap-8 p-4">
+      <div className="flex flex-col gap-8 p-32">
         <div>
           <Button size="s">Click</Button>
         </div>
@@ -24,6 +25,9 @@ export default function Home() {
             Click
           </Button>
         </div>
+        <TextInput />
+        <TextInput required />
+        <TextInput disabled />
       </div>
     </main>
   );
