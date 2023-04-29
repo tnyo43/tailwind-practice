@@ -13,7 +13,7 @@ export const Button: React.FC<Props> = ({
 }) => (
   <button
     className={`
-      rounded border
+      rounded border outline-offset-4 hover:opacity-70     
       ${theme === "default" ? "bg-mono-background text-mono" : ""}
       ${theme === "accent" ? "bg-accent-background text-accent" : ""}
       ${theme === "alert" ? "bg-alert-background text-alert" : ""}
