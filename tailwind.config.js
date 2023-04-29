@@ -73,18 +73,21 @@ module.exports = {
         background: colors.gray[10],
       },
     },
+    spacing: {
+      0: "0",
+      4: "0.25rem",
+      8: "0.5rem",
+      16: "1rem",
+      24: "1.5rem",
+      32: "2rem",
+      40: "2.5rem",
+    },
+    borderRadius: {
+      DEFAULT: "0.5rem",
+    },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],
-    },
-    extend: {
-      spacing: {
-        "8xl": "96rem",
-        "9xl": "128rem",
-      },
-      borderRadius: {
-        "4xl": "2rem",
-      },
     },
   },
 };
