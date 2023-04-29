@@ -1,5 +1,6 @@
 import { Button } from "@/components/Button";
 import { TextInput } from "@/components/Input";
+import { Tweet } from "@/components/Tweet";
 
 export default function Home() {
   return (
@@ -28,6 +29,14 @@ export default function Home() {
         <TextInput />
         <TextInput required />
         <TextInput disabled />
+      </div>
+      <div className="max-w-xl border border-gray-50">
+        <Tweet
+          imageSrc="https://www.pakutaso.com/shared/img/thumb/sikun_20220402-180657-2_TP_V.jpg"
+          name="かっしー"
+          userId="kashikashi"
+          content={`これはテストツイートです\nテストテスト`}
+        />
       </div>
     </main>
   );
