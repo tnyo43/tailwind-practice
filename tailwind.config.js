@@ -84,6 +84,7 @@ module.exports = {
     },
     borderRadius: {
       DEFAULT: "0.5rem",
+      max: "99999px",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

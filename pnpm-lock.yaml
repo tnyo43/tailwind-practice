@@ -19,6 +19,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.3.1
     version: 13.3.1(eslint@8.39.0)(typescript@5.0.4)
+  material-symbols:
+    specifier: ^0.5.5
+    version: 0.5.5
   next:
     specifier: 13.3.1
     version: 13.3.1(react-dom@18.2.0)(react@18.2.0)
@@ -1703,6 +1706,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: false
+
+  /material-symbols@0.5.5:
+    resolution: {integrity: sha512-NFUsjEVBNZvcRRqslY0RWnmlGgjhJkpDQkQs42o52gT2AmIbaP6V7wTRgyTkLAoD5VtpgpIx9eoOAXcH2ynwkg==}
     dev: false
 
   /merge2@1.4.1:
